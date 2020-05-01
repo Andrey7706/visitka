@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	margin: 5px 0 20px 0;
+	padding: 0;
+	background: url(../images/bg.png);
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Шапка сайта*/
+
+#header {
+	width: 731px;
+	height: 105px;
+	margin: 0 auto;
+}
+
+#header div {
+	float: left;
+}
+
+#logo {
+	background: url(../images/logo.png) top center no-repeat;
+	width: 227px;
+	height: 103px;
+	display: block;
+}
+
+#menu {
+	font-size: 18px;
+	margin: 25px 0 0 50px;	
+}
+
+#menu a {
+	padding: 10px;
+	color: #000;
+}
+
+#menu a:hover {
+	color: #c9c32a;
+}
+
+#slider {
+	margin: 5px auto 30px auto;
+	width: 719px;
+	height: 368px;
+	position: relative;
+}
+
+#slider img {
+	width: 719px;
+	height: 368px;
+	border-radius: 50px;
+	box-shadow: 0 0 30px #474444;
+}
+
+#circle {
+	width: 262px;
+	height: 231px;
+	background: url(../images/circle.png) top center no-repeat;
+	position: absolute;
+	right: 15px;
+	top: 30px;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 65px 30px 0 30px;
+}
+
+.line {
+	width: 692px;
+	height: 3px;
+	background: #d1cccc;
+	margin: 0 auto;
+}
+
+/*Контент*/
+
+#content {
+	width: 800px;
+	margin: 37px auto;
+	background: url(../images/content-bg.png);
+	box-sizing: border-box;
+	padding: 20px 40px;
+	border-radius: 30px;
+	text-align: justify;
+}
+
+#content h1 {
+	color: #25bf32;
+	font-size: 20px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+/*Подвал сайта*/
+
+#footer {
+	width: 692px;
+	height: 60px;
+	margin: 0 auto;
+	color: #0f6a84;
+}
+
+#cocial-fb {
+	float: left;
+	margin: 15px 30px 0 10px;
+}
+
+#cocial-tw {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+
+#cocial-fb img, #cocial-tw img {
+	margin: 0 0 -5px 5px;
+}
+
+#copy {
+	float: right;
+	font-size: 16px;
+	color: #938e84;
+	font-style: italic;
+	padding: 15px 10px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
